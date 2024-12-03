@@ -59,16 +59,21 @@ Pistes d'amélioration:
 
 ### Qualité du code
 
+- La syntaxe camelCase est utilisée pour les variables et les fonctions
+- Les noms de variables et de fonctions sont explicites
+- Les noms des routes sont cohérents
+- Les fonctions sont concises et ne font qu'une chose
 - Les variables globales sont nombreuses
 - La journalisation n'est pas systématique
 - Le middleware `authenticate` est déclaré dans **routes/tasks.js**
-- Les cas d'erreurs ne sont pas tous gérés
+- Les cas d'erreurs ne sont pas tout gérées
 - L'échappement des variables est correctement géré
-- Les parties d'API et de front pourraient être séparé
+- Les parties d'API et de front pourraient être séparées
 
 Pistes d'amélioration:
 
-- Déplacer le middleware authenticate dans le dossier middleware
+- Mettre des noms de paramètres explicites pour la fonction `create` du model task
+- Déplacer le middleware `authenticate` dans le dossier middleware
 - Ajouter un middleware pour la journalisation sur toutes les routes
 - Modifier toutes les variables ~~`var`~~ par `let` ou `const`
 - Mettre un linter ou un vérificateur de code qui permet d'alerter en cas de détection de variables globales
@@ -87,6 +92,7 @@ Pistes d'amélioration:
 - Améliorer la qualité visuelle de l'application
 - Une mise en place d'une politique de hiérarchisation des fichiers est nécessaire
 - Une mise en place de politique de journalisation est nécessaire
+- Une mise en place d'une politique de linter pour le nom des variables et des fonctions est nécessaire
 - Les variables globales sont nombreuses et doivent être limitées
 - Les tests sont faibles et doivent être mis en place
 - Mise en place d'un système de cookies pour sécuriser l'application
@@ -94,6 +100,11 @@ Pistes d'amélioration:
 - Une politique de mot de passe fort est nécessaire
 - L'application doit pouvoir tout le temps répondre
 - Une gestion des erreurs plus performante est nécessaire
+- Modification du systeme d'authentification pour y ajouter un systeme cryptographique
+- Suppression des routes non utilisées
+- Sécuriser les routes admin
+- Sécuriser les routes tasks
+- Masquer l'input du password par défaut (optionnel: ajouter la possibilité de montrer volontairement le password)
 
 
 ## 1.4 Documentation commune
