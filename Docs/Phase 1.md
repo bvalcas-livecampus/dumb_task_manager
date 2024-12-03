@@ -105,6 +105,7 @@ Pistes d'amélioration:
 - Sécuriser les routes admin
 - Sécuriser les routes tasks
 - Masquer l'input du password par défaut (optionnel: ajouter la possibilité de montrer volontairement le password)
+- Faire de la gestion d'erreur sur le front
 
 
 ## 1.4 Documentation commune
