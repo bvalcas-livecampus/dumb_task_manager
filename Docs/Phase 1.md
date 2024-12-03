@@ -74,6 +74,7 @@ Pistes d'amélioration:
 
 - Mettre des noms de paramètres explicites pour la fonction `create` du model task
 - Déplacer le middleware `authenticate` dans le dossier middleware
+- Les variables globales sont nombreuses et doivent être limitées
 - Ajouter un middleware pour la journalisation sur toutes les routes
 - Modifier toutes les variables ~~`var`~~ par `let` ou `const`
 - Mettre un linter ou un vérificateur de code qui permet d'alerter en cas de détection de variables globales
@@ -110,4 +111,4 @@ Pistes d'amélioration:
 
 ## 1.4 Documentation commune
 
-https://github.com/tunsay/dumb_task_manager.git
+https://github.com/tunsay/dumb_task_manager/blob/main/README.md
