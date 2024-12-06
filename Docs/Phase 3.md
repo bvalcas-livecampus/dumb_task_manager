@@ -101,8 +101,6 @@ Il n'y a eu aucun conflit, nous avons su nous comprendre et appréhender nos poi
 
 - Quelles sont les principales leçons apprises ?
 ```
-Les principales leçons apprises ont été :
-
 - La gestion de projet
 - La gestion de code
 - La gestion de la sécurité
@@ -118,8 +116,6 @@ Les principales leçons apprises ont été :
 
 - Quelles compétences ont été acquises ou renforcées ?
 ```
-Les compétences acquises ou renforcées ont été :
-
 - La gestion de la sécurité
 - La gestion de la documentation
 - La gestion des tests unitaires et d'intégration
@@ -139,8 +135,6 @@ Nous n'avons pas identifié d'éléments majeurs qui auraient pu être faits dif
 - Quels ont été les plus grands succès du projet ?
 
 ```
-Les plus grands succès du projet ont été :
-
 - La mise en place d'une documentation complète et structurée
 - L'établissement de normes de développement claires et cohérentes
 - L'automatisation réussie des tests et des vérifications via GitHub Actions
@@ -152,8 +146,6 @@ Les plus grands succès du projet ont été :
 ```
 - Quels ont été les principaux obstacles ?
 ```
-Les principaux obstacles ont été :
-
 Nous n'avons pas rencontré d'obstacles majeurs durant ce projet. L'équipe a su travailler efficacement et surmonter les petits défis techniques qui se sont présentés.
 ```
 
